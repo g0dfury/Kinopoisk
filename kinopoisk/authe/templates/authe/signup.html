@@ -15,7 +15,7 @@
             <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{f}}</p>
             <div class="form-error"> {{f.errors }} </div>
         {% endfor %}
-        <button type="submit" class="btn btn-dark">Зарегестрироваться</button>
+        <button type="submit" class="btn btn-primary">Зарегестрироваться</button>
         <p class="mt-1">  Уже есть аккаунт? <a href="{% url 'authe:signin' %}">Войти</a></p>
     </form>
 </div>

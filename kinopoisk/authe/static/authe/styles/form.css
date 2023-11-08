@@ -7,7 +7,7 @@
 }
 
 .form {
-    background-color: #fff;
+    background-color: #131317;
     width: 30%;
     padding: 40px;
     border-radius: 35px;
@@ -24,8 +24,19 @@
 }
 
 .greeding {
-    color: #131317;
+    color: #fff;
     font-weight: 700;
     display: flex;
     justify-content: center;
+}
+
+label {
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+.mt-1 {
+    padding-top: 8px;
+    color: #ffffff;
+
 }
