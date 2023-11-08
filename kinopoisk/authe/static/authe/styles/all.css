@@ -1,0 +1,7 @@
+/* bg */
+#authe-body {
+    background-image: url(https://yastatic.net/s3/passport-auth-customs/customs/_/7t47whpq.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

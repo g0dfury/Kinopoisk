@@ -1,0 +1,19 @@
+{% extends 'authe/base.html' %}
+{% load static %}
+
+{% block static_links %}
+<link rel="stylesheet" href="{% static 'authe/styles/form.css' %}">
+{% endblock %}
+
+{% block form_div %}
+<div class="form-wrapper">
+    <form action="{% url 'authe:signin' %}" method="post" class="form d-flex flex-column ">
+        <h2 class="greeding"> Войдите в систему </h2>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-dark">Войти</button>
+        <p class="mt-1">  Нет аккаунта? <a href="{% url 'authe:signup' %}">Зарегестрироваться</a></p>
+    </form>
+</div>
+
+{% endblock %}
