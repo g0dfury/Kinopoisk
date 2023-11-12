@@ -1,0 +1,101 @@
+/* header */
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+    height: 80px;
+    position: fixed; /* blog */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* left panel (menu) */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn-link {
+    text-decoration: none; /* Убрать подчеркивание для ссылок */
+    color: #000000; /* Цвет текста, замените на ваш выбор */
+    margin-top: 1px; /* Расстояние между кнопками, замените на ваш выбор */
+    display: flex; /* Делаем кнопки блочными элементами, чтобы занимали всю ширину */
+}
+
+
+/* search panel */
+.header-search {
+    width: 25%;
+}
+
+
+/* profile & exit btns */
+.header-btns a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* index.html */
+.main {
+    min-height: calc(100vh - 80px);
+    padding: 0 8%;
+    background-color: #f4f4f4;
+}
+
+.main-content {
+    background-color: #fff;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+
+.index-main .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 20%;    
+}
+
+.index-main .content {
+    width: 77%;
+    padding: 20px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2); 
+
+}
+
+.movie--item img {
+    width: 90%;
+}
+
+.movie--item {
+    display: flex;
+}
+
+.movie--item .movie-img {
+    width: 10%;
+}
+
+.movie--item .movie-info {
+    width: 60%;
+}
+
+.movie--item .movie-btns {
+    width: 30%;
+}
+
+.movie--item .movie-btns div {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie--item .movie-btns div {
+    display: flex;
+    flex-direction: column;
+}

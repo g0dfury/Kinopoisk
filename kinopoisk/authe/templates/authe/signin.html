@@ -13,6 +13,10 @@
         {{ form.as_p }}
         <button type="submit" class="btn btn-dark">Войти</button>
         <p class="mt-1">  Нет аккаунта? <a href="{% url 'authe:signup' %}">Зарегестрироваться</a></p>
+        <div class="error">
+            {% if error %}
+            Error: {{ error }}
+        {% endif %} </div>
     </form>
 </div>
 
